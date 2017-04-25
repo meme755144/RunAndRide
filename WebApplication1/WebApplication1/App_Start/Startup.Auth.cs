@@ -5,14 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using RunAndRide.Models;
-using Microsoft.Owin.Security.Facebook;
-using System.Net.Http;
-using Newtonsoft.Json;
-using System.Web;
-using System.Net;
+using WebApplication1.Models;
 
-namespace RunAndRide
+namespace WebApplication1
 {
     public partial class Startup
     {
@@ -59,26 +54,15 @@ namespace RunAndRide
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            var facebookOptions = new FacebookAuthenticationOptions()
-            {
-                AppId = "407079026317752",
-                AppSecret = "902eafaa37b45330f6fb91fdb4fa52dc",
-                BackchannelHttpHandler = new FacebookBackChannelHandler(),
-                UserInformationEndpoint = "https://graph.facebook.com/v2.4/me?fields=id,name,email,first_name,last_name"
-            };
-
             //app.UseFacebookAuthentication(
-            //   appId: "407079026317752",
-            //   appSecret: "902eafaa37b45330f6fb91fdb4fa52dc");
+            //   appId: "",
+            //   appSecret: "");
 
-            app.UseFacebookAuthentication(facebookOptions);
-
-            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            {
-                ClientId = "606186558853-2stjublgsu4tfkeekek05u66okko5c3n.apps.googleusercontent.com",
-                ClientSecret = "UPXZJ2Doj6nJbSXLkD5zmJ8f"
-            });
+            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            //{
+            //    ClientId = "",
+            //    ClientSecret = ""
+            //});
         }
     }
-
 }

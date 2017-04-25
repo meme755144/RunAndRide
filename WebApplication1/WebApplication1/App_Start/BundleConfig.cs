@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace RunAndRide
+namespace WebApplication1
 {
     public class BundleConfig
     {
@@ -24,7 +24,7 @@ namespace RunAndRide
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-theme.css",
+                      "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }
     }
