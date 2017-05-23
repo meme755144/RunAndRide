@@ -1,31 +1,46 @@
-﻿using System.Web;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 using System.Web.Optimization;
+using System.Web.UI;
 
 namespace RunAndRide
 {
     public class BundleConfig
     {
-        // 如需「搭配」的詳細資訊，請瀏覽 http://go.microsoft.com/fwlink/?LinkId=301862
+        // 如需統合的詳細資訊，請造訪 http://go.microsoft.com/fwlink/?LinkID=303951
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+            bundles.Add(new ScriptBundle("~/bundles/WebFormsJs").Include(
+                            "~/Scripts/WebForms/WebForms.js",
+                            "~/Scripts/WebForms/WebUIValidation.js",
+                            "~/Scripts/WebForms/MenuStandards.js",
+                            "~/Scripts/WebForms/Focus.js",
+                            "~/Scripts/WebForms/GridView.js",
+                            "~/Scripts/WebForms/DetailsView.js",
+                            "~/Scripts/WebForms/TreeView.js",
+                            "~/Scripts/WebForms/WebParts.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*"));
+            // 順序對於這些檔案產生作用而言相當重要，它們有明確的相依性
+            bundles.Add(new ScriptBundle("~/bundles/MsAjaxJs").Include(
+                    "~/Scripts/WebForms/MsAjax/MicrosoftAjax.js",
+                    "~/Scripts/WebForms/MsAjax/MicrosoftAjaxApplicationServices.js",
+                    "~/Scripts/WebForms/MsAjax/MicrosoftAjaxTimer.js",
+                    "~/Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js"));
 
-            // 使用開發版本的 Modernizr 進行開發並學習。然後，當您
-            // 準備好實際執行時，請使用 http://modernizr.com 上的建置工具，只選擇您需要的測試。
+            // 使用 Modernizr 的開發版本來開發並深入了解。當您準備好量產時，
+            // 請使用 http://modernizr.com 中的建置工具來挑選出您需要的測試
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
+                            "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
-
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-theme.css",
-                      "~/Content/site.css"));
+            ScriptManager.ScriptResourceMapping.AddDefinition(
+                "respond",
+                new ScriptResourceDefinition
+                {
+                    Path = "~/Scripts/respond.min.js",
+                    DebugPath = "~/Scripts/respond.js",
+                });
         }
     }
 }
