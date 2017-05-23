@@ -59,11 +59,11 @@ namespace RunAndRide
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "606186558853-2stjublgsu4tfkeekek05u66okko5c3n.apps.googleusercontent.com",
+                ClientSecret = "UPXZJ2Doj6nJbSXLkD5zmJ8f"
+            });
         }
     }
 }
