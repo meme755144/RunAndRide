@@ -10,6 +10,6 @@
 namespace RunAndRide {
     
     
-    public partial class _Default {
+    public partial class About {
     }
 }

@@ -7,13 +7,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - 我的 ASP.NET  應用程式</title>
+    <title><%: Page.Title %> - Run & Ride</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
 
 </head>
 <body>
@@ -47,13 +48,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">應用程式名稱</a>
+                    <a class="navbar-brand" runat="server" href="~/">騎跑人生</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">首頁</a></li>
-                        <li><a runat="server" href="~/About">關於</a></li>
-                        <li><a runat="server" href="~/Contact">連絡人</a></li>
+                        <li><a runat="server" href="~/About">會員資料</a></li>
+                        <li><a runat="server" href="~/About1">足跡紀錄</a></li>
+                        <li><a runat="server" href="~/About2">社群平台</a></li>
+                        <li><a runat="server" href="~/About3">開發人員</a></li>
+                        <li><a runat="server" href="~/Contact">客服聯繫</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
