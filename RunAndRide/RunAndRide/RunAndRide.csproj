@@ -206,6 +206,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\jquery-ui.css" />
     <Content Include="css\main.css" />
     <Content Include="css\skel.css" />
     <Content Include="css\style-large.css" />
@@ -243,6 +244,7 @@
     <Content Include="js\flowplayer-3.1.1.min.js" />
     <Content Include="js\html5shiv.js" />
     <Content Include="js\init.js" />
+    <Content Include="js\jquery-3.2.0.min.js" />
     <Content Include="js\jquery-ui.min.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\jquery.poptrox.min.js" />

@@ -65,6 +65,7 @@
 								<h4>Weihsuan Cheng</h4>
 								<p>ASP、Web UI</p>
 							</section>
+
                             <section class="3u$ 6u$(medium) 12u$(xsmall) profile">
 								<img src="images/member4.jpg" alt="" />
 								<h4>Wayne Kao</h4>

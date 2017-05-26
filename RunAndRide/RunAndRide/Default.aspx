@@ -26,7 +26,6 @@
                 $("#life").css({ 'font-family': '微軟正黑體', 'text-shadow': '2px 2px 2px rgba(0,0,0,.5)' });
                 $("#nav li").css({ 'font-family': '微軟正黑體', 'font-weight': 'bold' });
                 $("#player").css({ 'font-family': '微軟正黑體', 'font-weight': 'bold' });
-
                         
             });
             $(function () {

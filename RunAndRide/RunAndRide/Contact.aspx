@@ -9,31 +9,33 @@
 		<meta name="keywords" content="" />
         <link href="css/main.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
+        <link href="css/jquery-ui.css" rel="stylesheet" />
        
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
+		
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+        <script src="js/jquery-3.2.0.min.js"></script>
         <script src="js/jquery-ui.min.js"></script>
-        <script src="js/jquery.poptrox.min.js"></script>
+
 
         
         <script>
-            $(function () {
-                $("#life").css({ 'font-family': '微軟正黑體', 'text-shadow': '2px 2px 2px rgba(0,0,0,.5)' });
-                $("#nav li").css({ 'font-family': '微軟正黑體', 'font-weight': 'bold' });
-                $("#player").css({ 'font-family': '微軟正黑體', 'font-weight': 'bold' });
-                $("#three h2,p").css({ 'font-family': '微軟正黑體', 'font-weight': 'bold' });
-                
+            $(document).tooltip({
+                items: "[title],[data-geo]",
+                content: function () {
+                    if ($(this).is("[title]")) {
+                        return $(this).attr("title");
+                    }
+                    else if ($(this).is("[data-geo]")) {
+                        return "<img  style='width:280px;height:280px;'  src='http://maps.google.com/maps/api/staticmap?" +
+                               "zoom=15&size=280x280&maptype=roadmap&sensor=falseS&key=AIzaSyDZhclMXa-CadaVjcb3NGFeKc8V2NwoWGQ&markers=" +
+                               $(this).html() + "'/>";
+                    }
+                },
+                hide: { effect: "explode", delay: 500 }
             });
-            $(function () {
-                var foo = $('#player');
-                foo.poptrox({
-                    usePopupCaption: false
-                });
-            });
-
         </script>
 
 	</head>
@@ -66,18 +68,16 @@
 					</form>
 				</div>
 			</section>  
-    
+    <div style="text-align:center; font-family:'微軟正黑體'">
     <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
+    <h3>聯絡資訊</h3>
+    <span data-geo="">
+        高雄市中正四路211號8F-1
+    </span>
 
     <address>
         <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
         <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
     </address>
+    </div>
 </asp:Content>
