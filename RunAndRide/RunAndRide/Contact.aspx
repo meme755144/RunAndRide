@@ -18,10 +18,14 @@
 		<script src="js/init.js"></script>
         <script src="js/jquery-3.2.0.min.js"></script>
         <script src="js/jquery-ui.min.js"></script>
+        <script src="js/jquery.ui.datepicker-zh-TW.js"></script>
 
 
         
         <script>
+            $(function () {
+
+                $("input[name=date]").datepicker({ dateFormat: 'yy/mm/dd'});
             $(document).tooltip({
                 items: "[title],[data-geo]",
                 content: function () {
@@ -36,6 +40,10 @@
                 },
                 hide: { effect: "explode", delay: 500 }
             });
+
+
+            });
+            
         </script>
 
 	</head>
@@ -43,8 +51,8 @@
     <section id="three" class="wrapper style3 special">
 				<div class="container">
 					<header class="major">
-						<h2>客戶意見填寫單</h2>
-						<p>親愛的客戶您好! 歡迎您使用本系統。</br>如遇操作上有任何問題與建議，請填妥資料聯繫客服，我們將盡速回應您的問題。</p>
+						<h2 style="text-align:center; font-family:'微軟正黑體'">客戶意見填寫單</h2>
+						<p style="text-align:center; font-family:'微軟正黑體'">親愛的客戶您好! 歡迎您使用本系統。</br>如遇操作上有任何問題與建議，請填妥資料聯繫客服，我們將盡速回應您的問題。</p>
 					</header>
 				</div>
 				<div class="container 50%">
@@ -56,12 +64,15 @@
 							<div class="6u$ 12u$(small)">
 								<input name="email" id="email" value="" placeholder="Email" type="email">
 							</div>
+                            <div class="6u 12u$(small)">
+								<input style="display: inline" name="date" id="date" value="" placeholder="ReplyDate" type="text">
+							</div>
 							<div class="12u$">
 								<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
 							</div>
 							<div class="12u$">
 								<ul class="actions">
-									<li><input value="送出" class="special big" type="submit"></li>
+									<li><input value="送出" class="special big" type="submit"  style="text-align:center; font-family:'微軟正黑體'" title="傳送訊息"></li>
 								</ul>
 							</div>
 						</div>
@@ -69,8 +80,8 @@
 				</div>
 			</section>  
     <div style="text-align:center; font-family:'微軟正黑體'">
-    <h2><%: Title %>.</h2>
-    <h3>聯絡資訊</h3>
+    <h2><%: Title %></h2>
+    <h3 style="text-align:center; font-family:'微軟正黑體'">聯絡資訊</h3>
     <span data-geo="">
         高雄市中正四路211號8F-1
     </span>
