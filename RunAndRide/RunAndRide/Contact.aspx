@@ -10,6 +10,7 @@
         <link href="css/main.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
         <link href="css/jquery-ui.css" rel="stylesheet" />
+
        
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		
@@ -20,12 +21,11 @@
         <script src="js/jquery-ui.min.js"></script>
         <script src="js/jquery.ui.datepicker-zh-TW.js"></script>
 
-
         
         <script>
             $(function () {
 
-                $("input[name=date]").datepicker({ dateFormat: 'yy/mm/dd'});
+            $("input[name=date]").datepicker({ dateFormat: 'yy/mm/dd'});
             $(document).tooltip({
                 items: "[title],[data-geo]",
                 content: function () {

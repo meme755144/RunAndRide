@@ -42,6 +42,7 @@
 
                 $('.flipster').flipster();
                 $('.tlt').textillate();
+
             });
 
         </script>
@@ -64,7 +65,7 @@
                     </ul>
                 </div>
 				<h2 id="life" class="tlt" data-in-effect="bounceInDown">騎跑人生</h2>
-				<p class="tlt" data-in-effect="fadeInUpBig">Start &nbsp;&nbsp; from &nbsp;&nbsp; zero &nbsp;&nbsp; kilometer &nbsp;&nbsp; !</p>
+				<p id="tlt" class="tlt" data-in-effect="fadeInUpBig">Run&nbsp; for&nbsp; your&nbsp; life&nbsp; !</p>
 				<ul class="actions">
 					<li>
 						<a href="#" class="button big">Run & Ride</a>
