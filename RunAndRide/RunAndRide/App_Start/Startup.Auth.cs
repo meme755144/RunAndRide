@@ -61,8 +61,9 @@ namespace RunAndRide
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "606186558853-2stjublgsu4tfkeekek05u66okko5c3n.apps.googleusercontent.com",
-                ClientSecret = "UPXZJ2Doj6nJbSXLkD5zmJ8f"
+                //http://iii.panspace.org & http://localhost
+                ClientId = "102276164510-738iec87ig7lftcs504bfi0bd2jpeu90.apps.googleusercontent.com",
+                ClientSecret = "Wt-kU_Jfy4xvliD4-U4vIRWF"
             });
         }
     }
