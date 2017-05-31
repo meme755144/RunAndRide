@@ -65,14 +65,14 @@
 								<input name="email" id="email" value="" placeholder="Email" type="email">
 							</div>
                             <div class="6u 12u$(small)">
-								<input style="display: inline" name="date" id="date" value="" placeholder="ReplyDate" type="text">
+								<input style="float: right" name="date" id="date" value="" placeholder="ReplyDate" type="text">
 							</div>
 							<div class="12u$">
 								<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
 							</div>
 							<div class="12u$">
 								<ul class="actions">
-									<li><input value="送出" class="special big" type="submit"  style="text-align:center; font-family:'微軟正黑體'" title="傳送訊息"></li>
+									<li><input value="送出" class="special big" type="submit"  style="text-align:center; font-family:'微軟正黑體';font-weight: 700" title="傳送訊息"></li>
 								</ul>
 							</div>
 						</div>

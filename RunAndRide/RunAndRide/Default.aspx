@@ -25,13 +25,14 @@
         <script src="js/jquery.lettering.js"></script>
         <script src="js/jquery.fittext.js"></script>
         <script src="js/jquery.textillate.js"></script>
+        <script src="js/jQuery-face-cursor.js"></script>
 
         
         <script>
             $(function () {
                 $("#life").css({ 'font-family': '微軟正黑體', 'text-shadow': '2px 2px 2px rgba(0,0,0,.5)' });
                 $("#nav li").css({ 'font-family': '微軟正黑體', 'font-weight': 'bold' });
-                $("#player").css({ 'font-family': '微軟正黑體', 'font-weight': 'bold' });
+                $("#player .box .inner h3,p,a").css({ 'font-family': '微軟正黑體', 'font-weight': 'bold' });
                 $("#footer h3").css({ 'font-family': '微軟正黑體', 'font-weight': 'bold' });
             });
             $(function () {
@@ -42,7 +43,7 @@
 
                 $('.flipster').flipster();
                 $('.tlt').textillate();
-
+                $(".shake").faceCursor();                
             });
 
         </script>
@@ -64,11 +65,13 @@
                         <li><img src="images/run7.jpg" alt="" /></li>
                     </ul>
                 </div>
-				<h2 id="life" class="tlt" data-in-effect="bounceInDown">騎跑人生</h2>
-				<p id="tlt" class="tlt" data-in-effect="fadeInUpBig">Run&nbsp; for&nbsp; your&nbsp; life&nbsp; !</p>
+				
+                <h2 class="shake"><img src="images/RDlogo.png" / style="width:300px"></h2>
+                
+				<p id="tlt" class="tlt" data-in-effect="bounceInDown">Run&nbsp; for&nbsp; your&nbsp; Life&nbsp; !</p>
 				<ul class="actions">
 					<li>
-						<a href="#" class="button big">Run & Ride</a>
+						<a href="#" class="button big" id="sparkleHover">Run & Ride</a>
 					</li>
 				</ul>
                 
