@@ -11,8 +11,9 @@
 		<meta name="keywords" content="" />
         <link href="css/main.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
-        <link href="css/jquery.flipster.css" rel="stylesheet" />
         <link href="css/animate.css" rel="stylesheet" />
+
+        <link href="css/Gallery.css" rel="stylesheet" />
        
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
@@ -21,11 +22,13 @@
 		<script src="js/init.js"></script>
         <script src="js/jquery-ui.min.js"></script>
         <script src="js/jquery.poptrox.min.js"></script>
-        <script src="js/jquery.flipster.js"></script>
+
         <script src="js/jquery.lettering.js"></script>
         <script src="js/jquery.fittext.js"></script>
         <script src="js/jquery.textillate.js"></script>
         <script src="js/jQuery-face-cursor.js"></script>
+        <script src="js/jquery.gallery.js"></script>
+
 
         
         <script>
@@ -40,8 +43,15 @@
                 $('#player').poptrox({
                     usePopupCaption: false
                 });
+                $('#banner .dg-wrapper').poptrox({
+                    usePopupCaption: false
+                });
+                $('#dg-container').gallery({
+                   
+                    autoplay: true,
+                    interval: 2000
+                });
 
-                $('.flipster').flipster();
                 $('.tlt').textillate();
                 $(".shake").faceCursor();                
             });
@@ -54,17 +64,31 @@
 
 		<!-- Banner -->
 			<section id="banner">
-                <div class="flipster">
-                    <ul>
-                        <li><img src="images/run1.jpg" alt="" /></li>
-                        <li><img src="images/run2.jpg" alt="" /></li>
-                        <li><img src="images/run3.jpg" alt="" /></li>
-                        <li><img src="images/run4.jpg" alt="" /></li>
-                        <li><img src="images/run5.jpg" alt="" /></li>
-                        <li><img src="images/run6.jpg" alt="" /></li>
-                        <li><img src="images/run7.jpg" alt="" /></li>
-                    </ul>
-                </div>
+                <section id="dg-container" class="dg-container">
+                     <div class="dg-wrapper"> 
+                        <a href="images/run1-1.jpg">      
+                        <img src="images/run1.jpg" alt="image01">
+                        </a>
+                        <a href="images/run2-2.jpg">
+                        <img src="images/run2.jpg" alt="image02">
+                        </a>
+                        <a href="images/run3-3.jpg">
+                        <img src="images/run3.jpg" alt="image03">
+                        </a>
+                        <a href="images/run4-4.jpg">
+                        <img src="images/run4.jpg" alt="image04">
+                        </a>
+                        <a href="images/run5-5.jpg">
+                        <img src="images/run5.jpg" alt="image05">
+                        </a>
+                        <a href="images/run6-6.jpg">
+                        <img src="images/run6.jpg" alt="image06">
+                        </a>
+                        <a href="images/run7-7.jpg">
+                        <img src="images/run7.jpg" alt="image07"> 
+                        </a>      
+                    </div>
+            </section>
 				
                 <h2 class="shake"><img src="images/RDlogo.png" / style="width:300px"></h2>
                 

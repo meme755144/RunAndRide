@@ -65,7 +65,7 @@
 								<input name="email" id="email" value="" placeholder="Email" type="email">
 							</div>
                             <div class="6u 12u$(small)">
-								<input style="float: right" name="date" id="date" value="" placeholder="ReplyDate" type="text">
+								<input style="float: left" name="date" id="date" value="" placeholder="ReplyDate" type="text">
 							</div>
 							<div class="12u$">
 								<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>

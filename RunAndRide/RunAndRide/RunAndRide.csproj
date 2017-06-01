@@ -207,6 +207,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="css\animate.css" />
     <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\Gallery.css" />
+    <Content Include="css\htmleaf-demo.css" />
     <Content Include="css\jquery-ui.css" />
     <Content Include="css\jquery.flipster.css" />
     <Content Include="css\main.css" />
@@ -241,12 +243,19 @@
     <Content Include="images\profile_placeholder.gif" />
     <Content Include="images\RDlogo.png" />
     <Content Include="images\RM.png" />
+    <Content Include="images\run1-1.jpg" />
     <Content Include="images\run1.jpg" />
+    <Content Include="images\run2-2.jpg" />
     <Content Include="images\run2.jpg" />
+    <Content Include="images\run3-3.jpg" />
     <Content Include="images\run3.jpg" />
+    <Content Include="images\run4-4.jpg" />
     <Content Include="images\run4.jpg" />
+    <Content Include="images\run5-5.jpg" />
     <Content Include="images\run5.jpg" />
+    <Content Include="images\run6-6.jpg" />
     <Content Include="images\run6.jpg" />
+    <Content Include="images\run7-7.jpg" />
     <Content Include="images\run7.jpg" />
     <Content Include="js\flowplayer-3.1.1.min.js" />
     <Content Include="js\html5shiv.js" />
@@ -256,6 +265,7 @@
     <Content Include="js\jquery-ui.min.js" />
     <Content Include="js\jquery.fittext.js" />
     <Content Include="js\jquery.flipster.js" />
+    <Content Include="js\jquery.gallery.js" />
     <Content Include="js\jquery.lettering.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\jquery.poptrox.min.js" />

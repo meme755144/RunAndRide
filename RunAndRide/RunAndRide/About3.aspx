@@ -9,6 +9,8 @@
 		<meta name="keywords" content="" />
         <link href="css/main.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
+        <link href="css/htmleaf-demo.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="path/to/css/bootstrap.min.css">
        
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
@@ -16,7 +18,7 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
         <script src="js/jquery-ui.min.js"></script>
-        <script src="js/jquery.poptrox.min.js"></script>
+
 
         
         <script>
@@ -25,12 +27,7 @@
                 $("#two h2,p").css({ 'font-family': '微軟正黑體', 'font-weight': 'bold' });
                
             });
-            $(function () {
-                var foo = $('#player');
-                foo.poptrox({
-                    usePopupCaption: false
-                });
-            });
+
 
         </script>
 
