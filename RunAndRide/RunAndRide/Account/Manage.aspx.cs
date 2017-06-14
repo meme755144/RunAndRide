@@ -78,6 +78,9 @@ namespace RunAndRide.Account
                     successMessage.Visible = !String.IsNullOrEmpty(SuccessMessage);
                 }
             }
+            var user = manager.FindById(User.Identity.GetUserId());
+            tbName.Text = user.UserName;
+            tbEmail.Text = user.Email;
         }
 
 

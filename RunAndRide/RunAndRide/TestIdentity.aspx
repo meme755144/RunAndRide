@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About1" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About1.aspx.cs" Inherits="RunAndRide.About" %>
+﻿<%@ Page Title="About1" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TestIdentity.aspx.cs" Inherits="RunAndRide.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="css/main.css" rel="stylesheet" />

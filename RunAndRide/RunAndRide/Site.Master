@@ -81,10 +81,10 @@
         <div>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
+<%--            <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - 我的 ASP.NET  應用程式</p>
-            </footer>
+            </footer>--%>
         </div>
     </form>
 </body>
