@@ -182,6 +182,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About1.aspx" />
     <Content Include="About3.aspx" />
     <Content Include="About2.aspx" />
     <Content Include="TestIdentity.aspx" />
@@ -324,6 +325,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About1.aspx.cs">
+      <DependentUpon>About1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About1.aspx.designer.cs">
+      <DependentUpon>About1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="About3.aspx.cs">
       <DependentUpon>About3.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
