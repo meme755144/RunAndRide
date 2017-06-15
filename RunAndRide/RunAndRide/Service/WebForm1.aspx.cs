@@ -15,8 +15,8 @@ namespace RunAndRide.Service
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            String userName = Request.QueryString["userName"];
-            String pwd = Request.QueryString["pwd"];
+            String userName = Request.Form["userName"];
+            String pwd = Request.Form["pwd"];
 
 
             var signinManager = Context.GetOwinContext().GetUserManager<ApplicationSignInManager>();
@@ -30,7 +30,7 @@ namespace RunAndRide.Service
                     //String strResponse = "true\n" + user.Email + "\n" + user.UserName + "\n" + user.PhoneNumber;
                     //Response.Write("[{\"userName\":\"" + user.UserName + "\",\"email\":\"" + user.Email + "\"}]");
                     Hashtable hs = new Hashtable();
-                    hs.Add("userID", user.Id);
+                    hs.Add("userId", user.Id);
                     hs.Add("userName", user.UserName);
                     hs.Add("userEmail", user.Email);
                     hs.Add("userPhone", user.PhoneNumber);
@@ -44,7 +44,7 @@ namespace RunAndRide.Service
                 case SignInStatus.RequiresVerification:
                 case SignInStatus.Failure:
                 default:
-                    Response.Write("false"+userName+pwd);
+                    Response.Write("false");
                     break;
             }
 
