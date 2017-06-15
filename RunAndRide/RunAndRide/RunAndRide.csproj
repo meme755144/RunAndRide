@@ -185,6 +185,7 @@
     <Content Include="About1.aspx" />
     <Content Include="About3.aspx" />
     <Content Include="About2.aspx" />
+    <Content Include="css\member.css" />
     <Content Include="TestIdentity.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
