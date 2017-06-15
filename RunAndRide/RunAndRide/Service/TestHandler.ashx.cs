@@ -38,22 +38,42 @@ namespace RunAndRide.Service
                 new GPSHistory()
                 {
                     Id = 1,
-                    StartTime = "2017010101",
-                    EndTime = "2017010505",
+                    StartTime = "2017111111",
+                    EndTime = "2017222222",
                     lkk = new List<LatLng>()
                     {
                         new LatLng()
                         {
-                            Latitude = "000",
-                            Longtitude = "111"
+                            Latitude = "22.6256097",
+                            Longtitude = "120.2939954"
                         },
                         new LatLng()
                         {
-                            Latitude = "222",
-                            Longtitude = "333"
+                            Latitude = "22.6253423",
+                            Longtitude = "120.295594"
+                        }
+                    }
+                },
+                new GPSHistory()
+                {
+                    Id = 2,
+                    StartTime = "2017222222",
+                    EndTime = "2017333333",
+                    lkk = new List<LatLng>()
+                    {
+                        new LatLng()
+                        {
+                            Latitude = "22.6256939",
+                            Longtitude = "120.2935502"
+                        },
+                        new LatLng()
+                        {
+                            Latitude = "22.6262856",
+                            Longtitude = "120.2917826"
                         }
                     }
                 }
+
             };
 
             JavaScriptSerializer js = new JavaScriptSerializer();
