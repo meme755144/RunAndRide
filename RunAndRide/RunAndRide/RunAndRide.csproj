@@ -185,6 +185,7 @@
     <Content Include="About3.aspx" />
     <Content Include="About2.aspx" />
     <Content Include="css\member.css" />
+    <Content Include="testGoogle.aspx" />
     <Content Include="TestIdentity.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
@@ -338,6 +339,13 @@
     </Compile>
     <Compile Include="About2.aspx.designer.cs">
       <DependentUpon>About2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testGoogle.aspx.cs">
+      <DependentUpon>testGoogle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testGoogle.aspx.designer.cs">
+      <DependentUpon>testGoogle.aspx</DependentUpon>
     </Compile>
     <Compile Include="TestIdentity.aspx.cs">
       <DependentUpon>TestIdentity.aspx</DependentUpon>
