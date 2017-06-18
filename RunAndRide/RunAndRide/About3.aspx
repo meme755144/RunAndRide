@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About3" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About3.aspx.cs" Inherits="RunAndRide.About" %>
+﻿<%@ Page Title="開發人員簡介" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About3.aspx.cs" Inherits="RunAndRide.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <head>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="RunAndRide.Contact" %>
+﻿<%@ Page Title="聯絡我們" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="RunAndRide.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <head>
@@ -59,16 +59,16 @@
 					<form action="#" method="post">
 						<div class="row uniform" id="row uniform">
 							<div class="6u 12u$(small)">
-								<input name="name" id="name" value="" placeholder="Name" type="text">
+								<input name="name" id="name" value="" placeholder="姓名" type="text">
 							</div>
 							<div class="6u$ 12u$(small)">
 								<input name="email" id="email" value="" placeholder="Email" type="email">
 							</div>
                             <div class="6u 12u$(small)">
-								<input style="float: left" name="date" id="date" value="" placeholder="ReplyDate" type="text">
+								<input style="float: left" name="date" id="date" value="" placeholder="回覆日期" type="text">
 							</div>
 							<div class="12u$">
-								<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
+								<textarea name="message" id="message" placeholder="留言" rows="6"></textarea>
 							</div>
 							<div class="12u$">
 								<ul class="actions">
@@ -80,15 +80,10 @@
 				</div>
 			</section>  
     <div style="text-align:center; font-family:'微軟正黑體'">
-    <h2><%: Title %></h2>
+    
     <h3 style="text-align:center; font-family:'微軟正黑體'">聯絡資訊</h3>
-    <span data-geo="">
-        高雄市中正四路211號8F-1
+        地址<span data-geo="">:高雄市中正四路211號8F-1
     </span>
 
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
     </div>
 </asp:Content>
