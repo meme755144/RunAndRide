@@ -7,24 +7,32 @@
     <table class="nav-justified">
         <tr>
             <td>時間</td>
-            <td>名稱</td>
-            <td>路線</td>
-            <td>地圖</td>
+            <td>平均速度</td>
+            <td>距離</td>
+            <td>卡路里</td>
+            <td>總時間</td>
+            <td>獲得獎勵</td>
         </tr>
         <tr>
             <td>
-                <asp:Label ID="lblTime" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lblDate" runat="server" Text="labe"></asp:Label>
             </td>
             <td>
-                <asp:Label ID="lblName" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lblSpeed" runat="server" Text="Label"></asp:Label>
             </td>
             <td>
-                <asp:Label ID="lblTrack" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lblDistance" runat="server" Text="Label"></asp:Label>
             </td>
             <td>
-                <asp:Button ID="btn查看" runat="server" Text="查看" />
+                <asp:Label ID="lblCarl" runat="server" Text="Label"></asp:Label>
+            </td>
+            <td>
+                <asp:Label ID="lblTotlTime" runat="server" Text="Label"></asp:Label>
+            </td>
+            <td>
+                <asp:Label ID="lblPrize" runat="server" Text="Label"></asp:Label>
             </td>
         </tr>
     </table>
-    <p>Use this area to provide additional information.</p>
+   
 </asp:Content>
