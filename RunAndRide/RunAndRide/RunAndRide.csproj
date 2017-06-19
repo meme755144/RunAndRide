@@ -81,6 +81,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -318,6 +319,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Site.Mobile.Master" />
     <Content Include="Service\TestHandler.ashx" />
+    <Content Include="Service\TrackHistoryHandler.ashx" />
+    <Content Include="Service\TrackHistoryDetailHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -339,6 +342,12 @@
     </Compile>
     <Compile Include="About2.aspx.designer.cs">
       <DependentUpon>About2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service\TrackHistoryDetailHandler.ashx.cs">
+      <DependentUpon>TrackHistoryDetailHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Service\TrackHistoryHandler.ashx.cs">
+      <DependentUpon>TrackHistoryHandler.ashx</DependentUpon>
     </Compile>
     <Compile Include="testGoogle.aspx.cs">
       <DependentUpon>testGoogle.aspx</DependentUpon>
@@ -534,6 +543,9 @@
     <EmbeddedResource Include="Migrations\201706140157586_UserName.resx">
       <DependentUpon>201706140157586_UserName.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
