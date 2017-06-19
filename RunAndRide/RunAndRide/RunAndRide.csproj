@@ -186,6 +186,8 @@
     <Content Include="About3.aspx" />
     <Content Include="About2.aspx" />
     <Content Include="css\member.css" />
+    <Content Include="images\developer.png" />
+    <Content Include="images\trackbackground.png" />
     <Content Include="testGoogle.aspx" />
     <Content Include="TestIdentity.aspx" />
     <Content Include="About.aspx" />

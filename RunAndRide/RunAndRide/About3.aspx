@@ -33,7 +33,7 @@
 
 	</head>
     
-    
+    <body style="background-image:url(/images/developer.png)">
     <section id="two" class="wrapper style2 special">
 				<div class="container">
 					<header class="major">
@@ -54,7 +54,7 @@
 							</section>
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
 								<img src="images/member2.jpg" alt="" />
-								<h4>Weichung Cheng</h4>
+								<h4>Jimmy Chen</h4>
 								<p>ASP、Android、Web UI</p>
 							</section>
                             <section class="3u$ 6u$(medium) 12u$(xsmall) profile">
@@ -74,13 +74,9 @@
 							</section>
 						</div>
 					</section>
+                    </body>
                     <footer>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolore illum, temporibus veritatis eligendi, aliquam, dolor enim itaque veniam aut eaque sequi qui quia vitae pariatur repudiandae ab dignissimos ex!</p>
-						<ul class="actions">
-							<li>
-								<a href="#" class="button big">Lorem ipsum dolor sit</a>
-							</li>
-						</ul>
+						
 					</footer>
 				</div>
 			</section>

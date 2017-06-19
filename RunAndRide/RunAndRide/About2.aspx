@@ -3,10 +3,12 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
-     <h2>歷史足跡</h2>
+    <body style="background-image:url(/images/trackbackground.png)">
+    <br>
+     <h2 style="text-align:center">歷史足跡</h2>
     <table class="nav-justified">
         <tr>
-            <td>時間</td>
+            <td>紀錄日期</td>
             <td>平均速度</td>
             <td>距離</td>
             <td>卡路里</td>
@@ -34,5 +36,5 @@
             </td>
         </tr>
     </table>
-   
+    </body>
 </asp:Content>
