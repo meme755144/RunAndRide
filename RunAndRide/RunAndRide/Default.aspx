@@ -149,17 +149,17 @@
 					<section class="links">
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(small)">
-								<h3>最新消息</h3>
+								<h3 style="color:orange">最新消息</h3>
 								<ul class="unstyled">
-									<li><a href="#">2017 夏季臺灣KOM登山王之路</a></li>
-									<li><a href="#">The Road to Taiwan KOM-Summer</a></li>
-									<li><a href="#">2017 Light up Taiwan 台灣真行-大專單車環島</a></li>
-									<li><a href="#">2017滿天星挑戰系列─環花東365超級挑戰</a></li>
+									<li><a href="http://www.twbike.org/activity/?act=data&id=151">我愛台灣車衣販售</a></li>
+									<li><a href="http://www.twbike.org/activity/?act=data&id=148">2017 挑戰大三元</a></li>
+									<li><a href="http://www.twbike.org/activity/?act=data&id=158">第14梯 〜TWB 單車環島圓夢團</a></li>
+									<li><a href="http://theme.taiwanbike.tw/event/2017/">2017台灣自行車節</a></li>
 									<li><a href="#">不厭五分-超級八挑戰系列</a></li>
 								</ul>
 							</section>
 							<section class="3u 6u$(medium) 12u$(small)">
-								<h3 >運動焦點</h3>
+								<h3 style="color:orange">運動焦點</h3>
 								<ul class="unstyled">
 									<li><a href="#">Lorem ipsum dolor sit</a></li>
 									<li><a href="#">Reiciendis dicta laboriosam enim</a></li>
@@ -169,17 +169,17 @@
 								</ul>
 							</section>
 							<section class="3u 6u(medium) 12u$(small)">
-								<h3>廠商公告</h3>
+								<h3 style="color:orange">廠商資訊</h3>
 								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Distinctio, inventore quidem nesciunt</a></li>
-									<li><a href="#">Explicabo inventore itaque autem</a></li>
-									<li><a href="#">Aperiam harum, sint quibusdam</a></li>
-									<li><a href="#">Labore excepturi assumenda</a></li>
+									<li><a href="http://www.twbike.org/">台灣自行車協會</a></li>
+									<li><a href="http://www.taiwanbike.org/">中華民國自行車協會</a></li>
+									<li><a href="http://www.khsbicycles.com.tw/">KHS功學社單車股份有限公司</a></li>
+									<li><a href="http://www.giantcyclingworld.com/bike.php">GIANT捷安特</a></li>
+									<li><a href="http://www.merida.tw/2017all.htm">MERIDA美利達自行車</a></li>
 								</ul>
 							</section>
 							<section class="3u$ 6u$(medium) 12u$(small)">
-								<h3>店商網站</h3>
+								<h3 style="color:orange">店商網站</h3>
 								<ul class="unstyled">
 									<li><a href="#">Lorem ipsum dolor sit</a></li>
 									<li><a href="#">Recusandae, culpa necessita nam</a></li>
