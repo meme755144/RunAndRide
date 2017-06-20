@@ -149,7 +149,7 @@
 					<section class="links">
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(small)">
-								<h3>最新消息</h3>
+								<h3 style="color:orange">最新消息</h3>
 								<ul class="unstyled">
 									<li><a href="#">2017 夏季臺灣KOM登山王之路</a></li>
 									<li><a href="#">The Road to Taiwan KOM-Summer</a></li>
@@ -159,7 +159,7 @@
 								</ul>
 							</section>
 							<section class="3u 6u$(medium) 12u$(small)">
-								<h3 >運動焦點</h3>
+								<h3 style="color:orange">運動焦點</h3>
 								<ul class="unstyled">
 									<li><a href="#">Lorem ipsum dolor sit</a></li>
 									<li><a href="#">Reiciendis dicta laboriosam enim</a></li>
@@ -169,7 +169,7 @@
 								</ul>
 							</section>
 							<section class="3u 6u(medium) 12u$(small)">
-								<h3>廠商公告</h3>
+								<h3 style="color:orange">廠商公告</h3>
 								<ul class="unstyled">
 									<li><a href="#">Lorem ipsum dolor sit</a></li>
 									<li><a href="#">Distinctio, inventore quidem nesciunt</a></li>
@@ -179,7 +179,7 @@
 								</ul>
 							</section>
 							<section class="3u$ 6u$(medium) 12u$(small)">
-								<h3>店商網站</h3>
+								<h3 style="color:orange">店商網站</h3>
 								<ul class="unstyled">
 									<li><a href="#">Lorem ipsum dolor sit</a></li>
 									<li><a href="#">Recusandae, culpa necessita nam</a></li>
