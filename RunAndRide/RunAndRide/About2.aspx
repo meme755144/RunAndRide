@@ -8,7 +8,8 @@
      <h2 style="text-align:center">歷史足跡</h2>
     <table class="nav-justified">
         <tr>
-            <td>紀錄日期</td>
+            <td>紀錄日期<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            </td>
             <td>平均速度</td>
             <td>距離</td>
             <td>卡路里</td>
@@ -17,7 +18,7 @@
         </tr>
         <tr>
             <td>
-                <asp:Label ID="lblDate" runat="server" Text=""></asp:Label>
+                <asp:Label ID="lblDate" runat="server" style="font-family: 微軟正黑體"></asp:Label>
             </td>
             <td>
                 <asp:Label ID="lblSpeed" runat="server" Text=""></asp:Label>

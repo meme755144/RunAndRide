@@ -16,52 +16,35 @@ namespace RunAndRide
     {
 
         protected void Page_Load2(object sender, EventArgs e)
-        { }
-
-       public class TrackHistoryDetailHandler : IHttpHandler
         {
+            String userId = System.Web.HttpContext.Current.User.Identity.GetUserId();
+            SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString.ToString());
+            con.Open();
+            string strSQL = "select * from TrackHistory where UserId = @userId";
+            SqlCommand cmd = new SqlCommand(strSQL, con);
+            cmd.Parameters.AddWithValue("@userId", userId);
 
-            public void ProcessRequest(HttpContext context)
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            ArrayList eventList = new ArrayList();
+            int i = 0;
+            while (reader.Read() && i < 100)
             {
-                
-                String userId = System.Web.HttpContext.Current.User.Identity.GetUserId();
-                SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString.ToString());
-                con.Open();
-                string strSQL = "select * from TrackHistory where UserId = @userId";
-                SqlCommand cmd = new SqlCommand(strSQL, con);
-                cmd.Parameters.AddWithValue("@userId", userId);
+                Hashtable ht = new Hashtable();
+                ht.Add("UserId", string.Format("{0}", reader["UserId"]));
+                ht.Add("StartTime", string.Format("{0:yyyy-MM-dd HH:mm:ss}", reader["StartTime"]));
+                ht.Add("SpendTime", string.Format("{0}", reader["SpendTime"]));
+                ht.Add("Distance", string.Format("{0}", reader["Distance"]));
+                ht.Add("Speed", string.Format("{0}", reader["Speed"]));
+                ht.Add("Cal", string.Format("{0}", reader["Cal"]));
+                ht.Add("Reward", string.Format("{0}", reader["Reward"]));
 
-                SqlDataReader reader = cmd.ExecuteReader();
-
-                ArrayList eventList = new ArrayList();
-                int i = 0;
-                while (reader.Read() && i < 100)
-                {
-                    Hashtable ht = new Hashtable();
-                    ht.Add("UserId", string.Format("{0}", reader["UserId"]));
-                    ht.Add("StartTime", string.Format("{0:yyyy-MM-dd HH:mm:ss}", reader["StartTime"]));
-                    ht.Add("SpendTime", string.Format("{0}", reader["SpendTime"]));
-                    ht.Add("Distance", string.Format("{0}", reader["Distance"]));
-                    ht.Add("Speed", string.Format("{0}", reader["Speed"]));
-                    ht.Add("Cal", string.Format("{0}", reader["Cal"]));
-                    ht.Add("Reward", string.Format("{0}", reader["Reward"]));
-
-                    eventList.Add(ht);
-                    i += 1;
-                }
-
-                reader.Close();
-                con.Close();
-
+                eventList.Add(ht);
+                i += 1;
             }
 
-            public bool IsReusable
-            {
-                get
-                {
-                    return false;
-                }
-            }
+            reader.Close();
+            con.Close();
         }
-
-    } }
+    }
+}
