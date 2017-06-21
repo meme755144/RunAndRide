@@ -8,6 +8,7 @@ using System.Web.Configuration;
 using System.Web.Script.Serialization;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Microsoft.AspNet.Identity;
 
 namespace RunAndRide
 {
@@ -23,7 +24,7 @@ namespace RunAndRide
             public void ProcessRequest(HttpContext context)
             {
                 
-                String userId = ;
+                String userId = System.Web.HttpContext.Current.User.Identity.GetUserId();
                 SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString.ToString());
                 con.Open();
                 string strSQL = "select * from TrackHistory where UserId = @userId";
