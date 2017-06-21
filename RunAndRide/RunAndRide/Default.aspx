@@ -161,11 +161,11 @@
 							<section class="3u 6u$(medium) 12u$(small)">
 								<h3 style="color:orange">運動焦點</h3>
 								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Reiciendis dicta laboriosam enim</a></li>
-									<li><a href="#">Corporis, non aut rerum</a></li>
-									<li><a href="#">Laboriosam nulla voluptas, harum</a></li>
-									<li><a href="#">Facere eligendi, inventore dolor</a></li>
+									<li><a href="http://www.nownews.com/n/2017/05/17/2526599">2017台灣馬拉松在苗栗　邀1萬2千人參加</a></li>
+									<li><a href="https://udn.com/news/story/7005/2470217">路跑／邁入第3年 台灣馬拉松在苗栗起跑</a></li>
+									<li><a href="http://www.chinatimes.com/realtimenews/20170604002173-260405">海拔最高馬拉松 台灣女生雙雙挑戰成功</a></li>
+									<li><a href="https://udn.com/news/story/7005/2528684">路跑／超搶手！ 太魯閣馬拉松首次開放團報</a></li>
+									<li><a href="http://www.ettoday.net/news/20170606/939024.htm">辦馬拉松竟能商機破百億？趙天麟拚高雄馬變「世界七」</a></li>
 								</ul>
 							</section>
 							<section class="3u 6u(medium) 12u$(small)">
@@ -173,25 +173,27 @@
 								<ul class="unstyled">
 									<li><a href="http://www.twbike.org/">台灣自行車協會</a></li>
 									<li><a href="http://www.taiwanbike.org/">中華民國自行車協會</a></li>
-									<li><a href="http://www.khsbicycles.com.tw/">KHS功學社單車股份有限公司</a></li>
-									<li><a href="http://www.giantcyclingworld.com/bike.php">GIANT捷安特</a></li>
-									<li><a href="http://www.merida.tw/2017all.htm">MERIDA美利達自行車</a></li>
+									<li><a href="http://www.cma.org.tw/races/">中華民國馬拉松協會</a></li>
+									<li><a href="https://www.sportsnet.org.tw/">中華民國路跑協會</a></li>
+									<li><a href="http://www.maywoodtravel.com/group_list.asp">世界馬拉松團</a></li>
 								</ul>
 							</section>
 							<section class="3u$ 6u$(medium) 12u$(small)">
 								<h3 style="color:orange">店商網站</h3>
 								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Recusandae, culpa necessita nam</a></li>
-									<li><a href="#">Cupiditate, debitis adipisci blandi</a></li>
-									<li><a href="#">Tempore nam, enim quia</a></li>
-									<li><a href="#">Explicabo molestiae dolor labore</a></li>
+									<li><a href="http://www.nike.com/tw/zh_tw/">Nike</a></li>
+									<li><a href="http://www.adidas-home.com.tw/">Adidas</a></li>
+									<li><a href="http://www.pumataiwan.com.tw/">Puma</a></li>
+									<li><a href="http://www.khsbicycles.com.tw/">KHS功學社單車股份有限公司</a></li>
+									<li><a href="http://www.giantcyclingworld.com/bike.php">GIANT捷安特</a></li>
 								</ul>
 							</section>
 						</div>
 					</section>
 					
-				</div>
+				</div><br>
+                <h3 style="text-align:center" >Copyright © 2017 III 94期 保留一切權利。<h3>
+               
 			</footer>
 
 	</body>
