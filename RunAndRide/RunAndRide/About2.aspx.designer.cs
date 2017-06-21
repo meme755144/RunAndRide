@@ -40,30 +40,30 @@ namespace RunAndRide {
         protected global::System.Web.UI.WebControls.Label lblDistance;
         
         /// <summary>
-        /// lblCarl 控制項。
+        /// lblCal 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCarl;
+        protected global::System.Web.UI.WebControls.Label lblCal;
         
         /// <summary>
-        /// lblTotlTime 控制項。
+        /// lblSpentTime 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTotlTime;
+        protected global::System.Web.UI.WebControls.Label lblSpentTime;
         
         /// <summary>
-        /// lblPrize 控制項。
+        /// lblReward 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPrize;
+        protected global::System.Web.UI.WebControls.Label lblReward;
     }
 }

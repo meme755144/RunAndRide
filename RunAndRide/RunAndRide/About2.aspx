@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
-    <body style="background-image:url(/images/trackbackground.png)">
+    <body>
     <br>
      <h2 style="text-align:center">歷史足跡</h2>
     <table class="nav-justified">
@@ -17,22 +17,22 @@
         </tr>
         <tr>
             <td>
-                <asp:Label ID="lblDate" runat="server" Text="labe"></asp:Label>
+                <asp:Label ID="lblDate" runat="server" Text=""></asp:Label>
             </td>
             <td>
-                <asp:Label ID="lblSpeed" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lblSpeed" runat="server" Text=""></asp:Label>
             </td>
             <td>
-                <asp:Label ID="lblDistance" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lblDistance" runat="server" Text=""></asp:Label>
             </td>
             <td>
-                <asp:Label ID="lblCarl" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lblCal" runat="server" Text=""></asp:Label>
             </td>
             <td>
-                <asp:Label ID="lblTotlTime" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lblSpentTime" runat="server" Text=""></asp:Label>
             </td>
             <td>
-                <asp:Label ID="lblPrize" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lblReward" runat="server" Text=""></asp:Label>
             </td>
         </tr>
     </table>
