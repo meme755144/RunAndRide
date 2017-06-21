@@ -33,7 +33,7 @@
 
 	</head>
     
-    <body style="background-image:url(/images/developer.png)">
+    <body style="background-color:lightgray>
     <section id="two" class="wrapper style2 special">
 				<div class="container">
 					<header class="major">
