@@ -38,8 +38,14 @@ namespace RunAndRide
                 ht.Add("Speed", string.Format("{0}", reader["Speed"]));
                 ht.Add("Cal", string.Format("{0}", reader["Cal"]));
                 ht.Add("Reward", string.Format("{0}", reader["Reward"]));
+                lblDate.Text = string.Format("{0:yyyy-MM-dd HH:mm:ss}", reader["StartTime"]);
+                lblSpentTime.Text = string.Format("{0}", reader["SpendTime"]);
+                lblDistance.Text = string.Format("{0}", reader["Distance"]);
+                lblSpeed.Text = string.Format("{0}", reader["Speed"]);
+                lblCal.Text = string.Format("{0}", reader["Cal"]);
+                lblReward.Text = string.Format("{0}", reader["Reward"]);
 
-               
+
 
                 eventList.Add(ht);
                 i += 1;
