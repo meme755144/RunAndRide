@@ -323,6 +323,7 @@
     <Content Include="Service\TestHandler.ashx" />
     <Content Include="Service\TrackHistoryHandler.ashx" />
     <Content Include="Service\TrackHistoryDetailHandler.ashx" />
+    <Content Include="Service\MissionHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -344,6 +345,9 @@
     </Compile>
     <Compile Include="About2.aspx.designer.cs">
       <DependentUpon>About2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service\MissionHandler.ashx.cs">
+      <DependentUpon>MissionHandler.ashx</DependentUpon>
     </Compile>
     <Compile Include="Service\TrackHistoryDetailHandler.ashx.cs">
       <DependentUpon>TrackHistoryDetailHandler.ashx</DependentUpon>
