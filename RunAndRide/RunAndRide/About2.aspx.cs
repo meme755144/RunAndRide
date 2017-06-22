@@ -39,6 +39,8 @@ namespace RunAndRide
                 ht.Add("Cal", string.Format("{0}", reader["Cal"]));
                 ht.Add("Reward", string.Format("{0}", reader["Reward"]));
 
+                lblSpeed.Text = string.Format("{0}", reader["Speed"]);
+
                 eventList.Add(ht);
                 i += 1;
             }

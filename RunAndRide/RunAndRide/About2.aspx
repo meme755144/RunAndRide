@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
-    <body>
+    
     <br>
      <h2 style="text-align:center">歷史足跡</h2>
     <table class="nav-justified">
@@ -37,5 +37,5 @@
             </td>
         </tr>
     </table>
-    </body>
+   
 </asp:Content>
