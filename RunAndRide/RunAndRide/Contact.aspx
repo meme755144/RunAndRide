@@ -65,17 +65,17 @@
 								<input name="email" id="email" value="" placeholder="Email" type="email">
 							</div>
                             <div class="6u 12u$(small)">
-								<input style="float: left" name="date" id="date" value="" placeholder="回覆日期" type="text">
+								<input style="float: left" name="date" id="date" value="" placeholder="期望回覆日期" type="text">
 							</div>
 							<div class="12u$">
 								<textarea name="message" id="message" placeholder="留言" rows="6"></textarea>
 							</div>
 							<div class="12u$">
 								<ul class="actions">
-									<li><input value="送出" class="special big" type="submit"  style="text-align:center; font-family:'微軟正黑體';font-weight: 700" title="傳送訊息"></li>
+									<li><input value="送出" class="special big" type="submit"  style="text-align:center; font-family:'微軟正黑體';font-weight: 700" title="傳送訊息" id="submit"></li>
 								
                               
-									<li><input value="清除" class="special big" type="submit""  style="text-align:center; font-family:'微軟正黑體';font-weight: 700" ></li>
+									<li><input value="清除" class="special big" type="submit"  style="text-align:center; font-family:'微軟正黑體';font-weight: 700" title="清除資料"></li>
 								</ul>
 							</div>
 						</div>
