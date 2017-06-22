@@ -235,6 +235,7 @@
     <Content Include="Google.html" />
     <Content Include="Service\WebForm1.aspx" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\III.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="images\bokeh_car_lights_bg.jpg" />
     <Content Include="images\dark_tint.png" />

@@ -31,6 +31,7 @@ namespace RunAndRide.Service
                 Hashtable ht = new Hashtable();
                 ht.Add("mId", string.Format("{0}", reader["mId"]));
                 ht.Add("mType", string.Format("{0}", reader["mType"]));
+                ht.Add("mName", string.Format("{0}", reader["mName"]));
                 ht.Add("mDistance", string.Format("{0}", reader["mDistance"]));
                 ht.Add("mSpeed", string.Format("{0}", reader["mSpeed"]));
                 ht.Add("mReward", string.Format("{0}", reader["mReward"]));
