@@ -86,8 +86,8 @@
     <div style="text-align:center; font-family:'微軟正黑體'">
     <br>
     <h3 style="text-align:center; font-family:'微軟正黑體';color:black">聯絡資訊</h3>
-        地址<span data-geo="">:高雄市中正四路211號8F-1
-    </span>
+    
+        地址<span data-geo="">:高雄市中正四路211號8F-1</span>
 
     </div>
        
