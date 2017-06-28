@@ -34,5 +34,5 @@
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT * FROM [TrackHistory] ORDER BY [StartTime] DESC"></asp:SqlDataSource>
     </p>
-    </body>
+   
 </asp:Content>

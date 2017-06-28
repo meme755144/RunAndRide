@@ -91,7 +91,7 @@
 								<img src="images/member5.jpg" alt="" />
 								<h4>Chihhung Shen</h4>
 								<p>Android、SQL</p>
-							</section>
+							</section></div>
                        
                     </body>
                     <footer>

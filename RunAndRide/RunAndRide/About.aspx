@@ -22,24 +22,25 @@
 						</header>
 						
 						<hr />
-                        <div id="Content" style="display:block">
+                        <div class="container 50%">
+                          <div id="Content" style="display:block">
                             <h2>個人資訊</h2>
                             <form method="post" action="#">
-                                <div class="field"style="padding-left:50px">
+                                <div class="field">
                                     <input type="text" name="name" id="name" placeholder="姓名" />
                                 </div>
-                                <div class="field"style="padding-left:50px">
+                                <div class="field">
                                     <input type="email" name="email" id="email" placeholder="Email" />
                                 </div>
 
-                                <div class="field"style="padding-left:50px">
+                                <div class="field">
                                     <input type="text" name="sex" id="sex" placeholder="性別" />
                                 </div>
 
-                                <div class="field"style="padding-left:50px">
+                                <div class="field">
                                     <input type="text" name="height" id="height" placeholder="身高(cm)" />
                                 </div>
-                                <div class="field" style="padding-left:50px">
+                                <div class="field">
                                     <input type="text" name="weight" id="weight" placeholder="體重(kg) " />
                                 </div>                       						
                               
@@ -49,7 +50,7 @@
 
                             <hr />
                         </div>
-						
+						</div>
                         <section>
                             <button onclick="Edit()">修改資料</button>
                             <button onclick="Success()">完成</button>
