@@ -13,16 +13,13 @@
                 <asp:BoundField DataField="Id" HeaderText="Id" InsertVisible="False" ReadOnly="True" SortExpression="Id" Visible="False" />
                 <asp:BoundField DataField="UserId" HeaderText="UserId" SortExpression="UserId" Visible="False" />
                 <asp:BoundField DataField="StartTime" HeaderText="紀錄日期" SortExpression="StartTime" >
-                <ControlStyle BackColor="#FFCC66" />
-                <FooterStyle BackColor="#FF9933" />
-                <ItemStyle Font-Bold="False" Font-Size="Medium" />
                 </asp:BoundField>
-                <asp:BoundField DataField="SpendTime" HeaderText="總時間(分)" SortExpression="SpendTime" />
-                <asp:BoundField DataField="Distance" HeaderText="總距離(公里)" SortExpression="Distance" />
-                <asp:BoundField DataField="Speed" HeaderText="平均速度(km/hr)" SortExpression="Speed" />
+                <asp:BoundField DataField="SpendTime" HeaderText="總時間" SortExpression="SpendTime" />
+                <asp:BoundField DataField="Distance" HeaderText="總距離" SortExpression="Distance" />
+                <asp:BoundField DataField="Speed" HeaderText="平均速度" SortExpression="Speed" />
                 <asp:BoundField DataField="Cal" HeaderText="卡路里" SortExpression="Cal" />
-                <asp:BoundField DataField="Reward" HeaderText="獎勵點數" SortExpression="Reward" />
-                <asp:ButtonField ButtonType="Button" CommandName="Select" HeaderText="地圖" ShowHeader="True" Text="查詢" />
+                <asp:BoundField DataField="Reward" HeaderText="獎勵" SortExpression="Reward" />
+                <asp:HyperLinkField DataNavigateUrlFields="StartTime" HeaderText="地圖" Text="觀看" />
             </Columns>
             <FooterStyle BackColor="Tan" />
             <HeaderStyle BackColor="Tan" Font-Bold="True" />
@@ -33,6 +30,7 @@
             <SortedDescendingCellStyle BackColor="#E1DB9C" />
             <SortedDescendingHeaderStyle BackColor="#C2A47B" />
         </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server"></asp:SqlDataSource>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT * FROM [TrackHistory] ORDER BY [StartTime] DESC"></asp:SqlDataSource>
     </p>
    
