@@ -33,8 +33,10 @@
 
 	</head>
     
-    <body style="background-color:lightgray>
-    <section id="two" class="wrapper style2 special">
+    <body>
+				<div class="container">
+					<header class="major">
+						<h2>騎跑人生開發團隊2 special">
 				<div class="container">
 					<header class="major">
 						<h2>騎跑人生開發團隊</h2>
@@ -42,32 +44,28 @@
 					</header>
 					<section class="profiles">
 						<div class="row">
-							<section class="3u 6u(medium) 12u$(xsmall) profile">
+							
 								<img src="images/member.jpg" alt="" />
 								<h4>Ian Pan</h4>
 								<p>Android、ios、System Manager</p>
-							</section>
-							<section class="3u 6u$(medium) 12u$(xsmall) profile">
+						
+						
 								<img src="images/member1.jpg" alt="" />
 								<h4>Cyril Lu</h4>
 								<p>Android、ios</p>
-							</section>
-							<section class="3u 6u(medium) 12u$(xsmall) profile">
+							
 								<img src="images/member2.jpg" alt="" />
 								<h4>Jimmy Chen</h4>
 								<p>ASP、Android、Web UI</p>
-							</section>
-                            <section class="3u$ 6u$(medium) 12u$(xsmall) profile">
+						
 								<img src="images/member4.jpg" alt="" />
 								<h4>Wayne Kao</h4>
 								<p>ASP、JavaScript、JQuery</p>
-							</section>
-							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
+							
 								<img src="images/member3.jpg" alt="" />
 								<h4>Weihsuan Cheng</h4>
 								<p>ASP、Web UI</p>
-							</section>                         
-                            <section class="3u$ 6u$(medium) 12u$(xsmall) profile">
+							
 								<img src="images/member5.jpg" alt="" />
 								<h4>Chihhung Shen</h4>
 								<p>Android、SQL</p>
