@@ -22,6 +22,7 @@
                 <asp:BoundField DataField="Speed" HeaderText="平均速度(km/hr)" SortExpression="Speed" />
                 <asp:BoundField DataField="Cal" HeaderText="卡路里" SortExpression="Cal" />
                 <asp:BoundField DataField="Reward" HeaderText="獎勵點數" SortExpression="Reward" />
+                <asp:ButtonField ButtonType="Button" CommandName="Select" HeaderText="地圖" ShowHeader="True" Text="查詢" />
             </Columns>
             <FooterStyle BackColor="Tan" />
             <HeaderStyle BackColor="Tan" Font-Bold="True" />
