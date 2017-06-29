@@ -43,13 +43,13 @@
                 map: map
             }),
             markerA = new google.maps.Marker({
-                position: pointA,
+                //position: pointA,
 
                 animation: google.maps.Animation.BOUNCE,
                 map: map
             }),
             markerB = new google.maps.Marker({
-                position: pointB,
+                //position: pointB,
 
                 animation: google.maps.Animation.BOUNCE,
                 map: map
