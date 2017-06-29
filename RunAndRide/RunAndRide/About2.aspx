@@ -19,7 +19,9 @@
                 <asp:BoundField DataField="Id1" HeaderText="Id1" SortExpression="Id1" InsertVisible="False" ReadOnly="True" Visible="False" />
                 <asp:BoundField DataField="UserId1" HeaderText="UserId1" SortExpression="UserId1" Visible="False" />
                 <asp:BoundField DataField="StartTime1" HeaderText="StartTime1" SortExpression="StartTime1" Visible="False" />
-                <asp:BoundField DataField="SpendTime" HeaderText="總時間(分)" SortExpression="SpendTime" />
+                <asp:BoundField DataField="SpendTime" HeaderText="總時間(分)" SortExpression="SpendTime" >
+                <ControlStyle BackColor="#FF99CC" />
+                </asp:BoundField>
                 <asp:BoundField DataField="Distance" HeaderText="總距離(Km)" SortExpression="Distance" />
                 <asp:BoundField DataField="Speed" HeaderText="平均速度(km/hr)" SortExpression="Speed" />
                 <asp:BoundField DataField="Cal" HeaderText="卡路里" SortExpression="Cal" />
@@ -37,5 +39,4 @@
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT TrackHistoryDetail.*, TrackHistory.* FROM TrackHistory INNER JOIN TrackHistoryDetail ON TrackHistory.Id = TrackHistoryDetail.id ORDER BY TrackHistory.StartTime DESC"></asp:SqlDataSource>
     </p>
-   
-</asp:Content>
+   </asp:Content>

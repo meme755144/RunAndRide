@@ -30,7 +30,7 @@
 </html>
 <script>
     function initMap() {
-        var pointA = new google.maps.LatLng(22.66957, 120.3007054),
+        var pointA = new google.maps.LatLng(22.628176000, 120.3007054),
             pointB = new google.maps.LatLng(22.6193241, 120.2936823),
             myOptions = {
                 zoom: 7,
@@ -67,6 +67,7 @@
             origin: pointA,
             destination: pointB,
             travelMode: google.maps.TravelMode.DRIVING
+          
         }, function (response, status) {
             if (status == google.maps.DirectionsStatus.OK) {
                 directionsDisplay.setDirections(response);
