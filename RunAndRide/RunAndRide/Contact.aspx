@@ -75,14 +75,13 @@
 									<li><input value="送出" class="special big" type="submit"  style="text-align:center; font-family:'微軟正黑體';font-weight: 700" title="傳送訊息" id="submit"></li>
 								
                               
-									<li><input value="清除" class="special big" type="submit"  style="text-align:center; font-family:'微軟正黑體';font-weight: 700" title="清除資料"></li>
+									<li><input value="清除" class="special big" type="submit"  style="text-align:center; font-family:'微軟正黑體';font-weight: 700" title="清除資料" id="cancel"></li>
 								</ul>
 							</div>
 						</div>
 					</form>
 				</div>
 			</section>  
-    
     <div style="text-align:center; font-family:'微軟正黑體'">
     <br>
     <h3 style="text-align:center; font-family:'微軟正黑體';color:black">聯絡資訊</h3>
