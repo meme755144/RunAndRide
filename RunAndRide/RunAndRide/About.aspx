@@ -17,17 +17,17 @@
 					<section id="main">
 						<header>
 						
-							<h1>III94</h1>
-							<p>騎跑人生創始者</p>
+<%--							<h1>III94</h1>
+							<p>騎跑人生創始者</p>--%>
 						</header>
-						
+						<h2>我的資訊</h2>
 						<hr />
                         <div class="container 50%">
                           <div id="Content" style="display:block">
                             <h2>個人資訊</h2>
                             <form method="post" action="#">
                                 <div class="field">
-                                    <input type="text" name="name" id="name" placeholder="姓名" />
+                                   <input type="text" name="name" id="name" placeholder="姓名" />
                                 </div>
                                 <div class="field">
                                     <input type="email" name="email" id="email" placeholder="Email" />

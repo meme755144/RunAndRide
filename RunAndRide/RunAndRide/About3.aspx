@@ -33,7 +33,7 @@
 
 	</head>
     
-    <body style="background-color:lightgray>
+    <body >
     <section id="two" class="wrapper style2 special">
 				<div class="container">
 					<header class="major">
@@ -94,8 +94,5 @@
 							</section></div>
                        
                     </body>
-                    <footer>
-						
-					</footer>
-			
+                  
 </asp:Content>
