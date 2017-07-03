@@ -6,37 +6,33 @@
     
     <br>
      <h2 style="text-align:center">歷史足跡</h2>
-    <p style="text-align:center">
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="2" DataKeyNames="id,Id1" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="None" BackColor="LightGoldenrodYellow" BorderColor="Tan" BorderWidth="1px">
-            <AlternatingRowStyle BackColor="PaleGoldenrod" />
-            <Columns>
-                <asp:BoundField DataField="id" HeaderText="id" InsertVisible="False" ReadOnly="True" SortExpression="id" Visible="False" />
-                <asp:BoundField DataField="UserId" HeaderText="UserId" SortExpression="UserId" Visible="False" />
-                <asp:BoundField DataField="StartTime" HeaderText="紀錄日期" SortExpression="StartTime" >
-                </asp:BoundField>
-                <asp:BoundField DataField="Latitude" HeaderText="Latitude" SortExpression="Latitude" Visible="False" />
-                <asp:BoundField DataField="Longitude" HeaderText="Longitude" SortExpression="Longitude" Visible="False" />
-                <asp:BoundField DataField="Id1" HeaderText="Id1" SortExpression="Id1" InsertVisible="False" ReadOnly="True" Visible="False" />
-                <asp:BoundField DataField="UserId1" HeaderText="UserId1" SortExpression="UserId1" Visible="False" />
-                <asp:BoundField DataField="StartTime1" HeaderText="StartTime1" SortExpression="StartTime1" Visible="False" />
-                <asp:BoundField DataField="SpendTime" HeaderText="總時間(分)" SortExpression="SpendTime" >
-                <ControlStyle BackColor="#FF99CC" />
-                </asp:BoundField>
-                <asp:BoundField DataField="Distance" HeaderText="總距離(Km)" SortExpression="Distance" />
-                <asp:BoundField DataField="Speed" HeaderText="平均速度(km/hr)" SortExpression="Speed" />
-                <asp:BoundField DataField="Cal" HeaderText="卡路里" SortExpression="Cal" />
-                <asp:BoundField DataField="Reward" HeaderText="獎勵" SortExpression="Reward" />
-                <asp:HyperLinkField HeaderText="地圖" NavigateUrl="testGoogle.aspx" Text="查詢" />
-            </Columns>
-            <FooterStyle BackColor="Tan" />
-            <HeaderStyle BackColor="Tan" Font-Bold="True" />
-            <PagerStyle BackColor="PaleGoldenrod" ForeColor="DarkSlateBlue" HorizontalAlign="Center" />
-            <SelectedRowStyle BackColor="DarkSlateBlue" ForeColor="GhostWhite" />
-            <SortedAscendingCellStyle BackColor="#FAFAE7" />
-            <SortedAscendingHeaderStyle BackColor="#DAC09E" />
-            <SortedDescendingCellStyle BackColor="#E1DB9C" />
-            <SortedDescendingHeaderStyle BackColor="#C2A47B" />
-        </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT TrackHistoryDetail.*, TrackHistory.* FROM TrackHistory INNER JOIN TrackHistoryDetail ON TrackHistory.Id = TrackHistoryDetail.id ORDER BY TrackHistory.StartTime DESC"></asp:SqlDataSource>
-    </p>
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="Vertical" Width="100%">
+        <AlternatingRowStyle BackColor="White" />
+        <Columns>
+            <asp:BoundField DataField="StartTime" HeaderText="StartTime" SortExpression="StartTime" />
+            <asp:BoundField DataField="SpendTime" HeaderText="SpendTime" SortExpression="SpendTime" />
+            <asp:BoundField DataField="Distance" HeaderText="Distance" SortExpression="Distance" />
+            <asp:BoundField DataField="Speed" HeaderText="Speed" SortExpression="Speed" />
+            <asp:BoundField DataField="Cal" HeaderText="Cal" SortExpression="Cal" />
+            <asp:BoundField DataField="Reward" HeaderText="Reward" SortExpression="Reward" />
+            <asp:HyperLinkField HeaderText="map" NavigateUrl="https://www.google.com.tw/maps/search/google+map+%E7%B9%AA%E8%A3%BD%E8%B7%AF%E7%B7%9A+%E5%BA%A7%E6%A8%99/@22.5980097,120.3149348,13z/data=!3m1!4b1" Text="查詢" />
+        </Columns>
+        <FooterStyle BackColor="#CCCC99" />
+        <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
+        <RowStyle BackColor="#F7F7DE" />
+        <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
+        <SortedAscendingCellStyle BackColor="#FBFBF2" />
+        <SortedAscendingHeaderStyle BackColor="#848384" />
+        <SortedDescendingCellStyle BackColor="#EAEAD3" />
+        <SortedDescendingHeaderStyle BackColor="#575357" />
+    </asp:GridView>
+   <br>
+    <div>
+        
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="SELECT [StartTime], [SpendTime], [Distance], [Speed], [Cal], [Reward] FROM [TrackHistory] ORDER BY [StartTime] DESC"></asp:SqlDataSource>
+        
+    </div>
+
+    
    </asp:Content>
