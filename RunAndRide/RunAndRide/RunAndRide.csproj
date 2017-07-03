@@ -188,6 +188,7 @@
     <Content Include="css\member.css" />
     <Content Include="images\developer.png" />
     <Content Include="images\trackbackground.png" />
+    <Content Include="Mission.aspx" />
     <Content Include="testGoogle.aspx" />
     <Content Include="TestIdentity.aspx" />
     <Content Include="About.aspx" />
@@ -346,6 +347,13 @@
     </Compile>
     <Compile Include="About2.aspx.designer.cs">
       <DependentUpon>About2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mission.aspx.cs">
+      <DependentUpon>Mission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mission.aspx.designer.cs">
+      <DependentUpon>Mission.aspx</DependentUpon>
     </Compile>
     <Compile Include="Service\MissionHandler.ashx.cs">
       <DependentUpon>MissionHandler.ashx</DependentUpon>
